@@ -1,7 +1,7 @@
 ---
 name: vite-self-host-migration
 description: >-
-  Migrates web apps (especially Next.js) to Vite or TanStack Start, adds production
+  Migrates web apps (especially JavaScript web apps) to Vite or TanStack Start, adds production
   Docker images for self-hosting, and optionally wires Nitro for Node server output.
   Use when the user wants to leave Next.js for Vite, self-host on Docker or Coolify,
   add API routes without Next, convert App Router projects to TanStack Start, or

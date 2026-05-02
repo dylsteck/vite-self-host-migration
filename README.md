@@ -1,6 +1,6 @@
 # vite-self-host-migration
 
-Agent skill for migrating web apps (especially **Next.js**) to **Vite** or **TanStack Start**, adding **Docker** for self-hosting, and optionally **Nitro** for a Node `.output` server—useful for **Coolify** or any Docker host.
+Agent skill for migrating web apps (especially **JavaScript web apps**) to **Vite** or **TanStack Start**, adding **Docker** for self-hosting, and optionally **Nitro** for a Node `.output` server—useful for **Coolify** or any Docker host.
 
 ## What it covers
 
@@ -11,18 +11,8 @@ Agent skill for migrating web apps (especially **Next.js**) to **Vite** or **Tan
 
 See [`SKILL.md`](./SKILL.md) and [`references/`](./references/) for full instructions.
 
-## Install (Skills CLI)
+## Install
 
 ```bash
 npx skills add dylsteck/vite-self-host-migration
-```
-
-## Cursor (manual)
-
-Symlink or copy this folder into `~/.cursor/skills/vite-self-host-migration`, or keep developing from this repo path.
-
-## Validate (optional)
-
-```bash
-npx skills-ref validate .
 ```
